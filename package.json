@@ -1,7 +1,18 @@
 {
+  "name": "handy_server",
+  "version": "0.0.0",
+  "description": "A backend server for the Handy platform. Handles jobs posting and work application.",
+  "main": "server.js",
+  "repository": "https://github.com/arjunlubana/handy-server.git",
+  "author": "Arjun Lubana <arjunlubana562@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.1",
     "express-graphql": "^0.12.0",
     "graphql": "^16.5.0"
+  },
+  "scripts": {
+    "serve": "node server",
+    "startdev": "nodemon server"
   }
 }
